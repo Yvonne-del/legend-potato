@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(trial.jpg);
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(#000, 0.43)
+}
+.title {
+    color: #662983;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 15px;
+    animation-name: onloadAnim;
+    animation-duration: 1s;
+}
+.formDiv {
+    position: absolute;
+    top: 150px;
+}
+.formDiv2{
+    position: absolute;
+    top: 200px;
+}
+.formDiv a {
+    font-weight: bold;
+    margin-top: 15px;
+    animation-name: onloadAnim;
+    animation-duration: 1s;
+}
+.formDiv a:hover {
+    color: #7812d6;
+}
+.input-group {
+    max-width: 500px;
+    width: 100%;
+    background: #d4d3d3;
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+    animation-name: onloadAnim;
+    animation-duration: 1s;
+}
+.input-group i {
+    text-align: center;
+    line-height: 50px;
+    color: #f7f5f5;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.input-group input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    transition: 0.3s;
+}
+.btn {
+    width: 100%;
+    height: 45px;
+    max-width: 350px;
+    background: #e2b1f5;
+    border: 0px solid #0a0a0a;
+    border-radius: 25px;
+    color: #75177e;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-top: 10px;
+    animation-name: onloadAnim;
+    animation-duration: 1s;
+}
+.btn i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.btn:hover {
+    background: #e2b1f5;
+    color: #64146b;
+    font-size: 19px;
+    text-shadow: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.644);
+}
+p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    display: inline-block;
+    animation-name: onloadAnim;
+    animation-duration: 1s;
+
+}
+
+
+@keyframes onloadAnim {
+    from {
+        transform: translateY(-88%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+/* Responsivity */
+
+@media only screen and (max-width: 990px) {
+    body {
+        background-size: 130%;
+    }
+}
+@media only screen and (max-width: 740px) {
+    body {
+        background-size: 175%;
+    }
+}
+@media only screen and (max-width: 555px) {
+    body {
+        background-size: 245%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    body {
+        background-size: 265%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    body {
+        background-size: 320%;
+    }
+}
