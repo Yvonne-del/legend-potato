@@ -1,0 +1,155 @@
+body{
+    background: url("mealpage.png");
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: cover,center;
+    position: relative;
+    background-attachment: fixed;
+}
+.nour{
+position: absolute;
+width: 258px;
+height: 55px;
+left: calc(52% - 258px/2);
+top: 0px;
+margin-top: 0px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 50px;
+line-height: 58px;
+color: #9A0DCC;
+mix-blend-mode: multiply;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.meal{
+box-sizing: border-box;
+position: absolute;
+width: 854px;
+height: 390px;
+left: calc(50% - 854px/2);
+top: 97px;
+border: 3px solid #000000;
+box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+border-radius: 50px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+transition: 0.25s;
+}
+.mp{
+position: absolute;
+width: 298px;
+height: 58px;
+left: calc(54% - 298px/2 - 9px);
+top: 442px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 540;
+font-size: 40px;
+line-height: 58px;
+color: #000000;
+text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.meal2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 854px;
+    height: 390px;
+    left: calc(50% - 854px/2);
+    top: 570px;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 0.25s;
+}
+.mp2{
+    position: absolute;
+    width: 298px;
+    height: 58px;
+    left: calc(56% - 298px/2 - 9px);
+    top: 915px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 540;
+    font-size: 40px;
+    line-height: 58px;
+    color: #000000;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.meal3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 854px;
+    height: 390px;
+    left: calc(50% - 854px/2);
+    top: 1050px;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 0.25s;
+}
+.mp3{
+    position: absolute;
+    width: 298px;
+    height: 58px;
+    left: calc(54% - 298px/2 - 9px);
+    top: 1400px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 540;
+    font-size: 40px;
+    line-height: 58px;
+    color: #000000;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    
+}
+.meal4{
+    box-sizing: border-box;
+    position: absolute;
+    width: 854px;
+    height: 390px;
+    left: calc(50% - 854px/2);
+    top: 1535px;
+    border: 3px solid #000000;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 0.25s;
+}
+.mp4{
+    position: absolute;
+    width: 298px;
+    height: 58px;
+    left: calc(53% - 298px/2 - 9px);
+    top: 1885px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 540;
+    font-size: 40px;
+    line-height: 58px;
+    color: #000000;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.meal4:hover, .meal3:hover, .meal2:hover, .meal:hover{
+    width: 857px;
+    height: 393px;
+    box-shadow: 5px 5px 12px 10px rgba(0, 0, 0, 0.6);
+
+}
