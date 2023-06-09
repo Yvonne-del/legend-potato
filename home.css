@@ -1,155 +1,240 @@
 body{
-    background: url("mealpage.png");
+    background: #D4CDFF;
     background-size: cover;
-    height: 100vh;
+    height: 160vh;
     justify-content: center;
     background-repeat: no-repeat;
     background-position: cover,center;
     position: relative;
     background-attachment: fixed;
 }
-.nour{
+.nour2{
 position: absolute;
-width: 258px;
+width: 3305px;
 height: 55px;
 left: calc(52% - 258px/2);
 top: 0px;
 margin-top: 0px;
 font-family: 'Inter';
 font-style: italic;
-font-weight: 700;
-font-size: 50px;
-line-height: 58px;
+font-weight: 500;
+font-size: 60px;
+line-height: 77px;
 color: #9A0DCC;
-mix-blend-mode: multiply;
+mix-blend-mode: luminosity;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.meal{
-box-sizing: border-box;
+.b1{
 position: absolute;
-width: 854px;
+width: 380px;
 height: 390px;
-left: calc(50% - 854px/2);
-top: 97px;
-border: 3px solid #000000;
-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
-border-radius: 50px;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-left: 0px;
-margin-right: 0px;
-transition: 0.25s;
+left: 35px;
+top: 148px;
+background: #ececec;
+box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
 }
-.mp{
+.pic1{
 position: absolute;
-width: 298px;
-height: 58px;
-left: calc(54% - 298px/2 - 9px);
-top: 442px;
-font-family: 'Inter';
-font-style: italic;
-font-weight: 540;
-font-size: 40px;
-line-height: 58px;
-color: #000000;
-text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+display: inline-block;
+width: 284px;
+height: 200px;
+left: 45px;
+top: 40px;
+background: url(udon.webp)  no-repeat;
+box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
 }
-.meal2{
-    box-sizing: border-box;
+.text1{
     position: absolute;
-    width: 854px;
+    font-family: Sofiapro,Georgia,sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-underline-offset: 0.125rem;
+    display: inline-block;
+    width: 250px;
+    top: 250px;
+    left: 60px;
+}
+.t1{
+    position: absolute;
+    top: 335px;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 104);
+}
+.b2{
+    position: absolute;
+    width: 380px;
     height: 390px;
-    left: calc(50% - 854px/2);
-    top: 570px;
-    border: 3px solid #000000;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    transition: 0.25s;
+    left: 470px;
+    top: 148px;
+    background: #ececec;
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
 }
-.mp2{
+.pic2{
     position: absolute;
-    width: 298px;
-    height: 58px;
-    left: calc(56% - 298px/2 - 9px);
-    top: 915px;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 540;
-    font-size: 40px;
-    line-height: 58px;
-    color: #000000;
-    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    width: 250px;
+    height: 190px;
+    left: 65px;
+    top: 40px;
+    background: url(vegan-egg.jpg)  no-repeat;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
 }
-.meal3{
-    box-sizing: border-box;
+.b3{
     position: absolute;
-    width: 854px;
+    width: 380px;
     height: 390px;
-    left: calc(50% - 854px/2);
-    top: 1050px;
-    border: 3px solid #000000;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    transition: 0.25s;
+    left: 905px;
+    top: 148px;
+    background: #ececec;
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
 }
-.mp3{
+.pic3{
     position: absolute;
-    width: 298px;
-    height: 58px;
-    left: calc(54% - 298px/2 - 9px);
-    top: 1400px;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 540;
-    font-size: 40px;
-    line-height: 58px;
-    color: #000000;
-    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    width: 210px;
+    height: 198px;
+    left: 85px;
+    top: 40px;
+    background: url(Mumallaengi.jpg)  no-repeat;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+    }
+.b4{
+    position: absolute;
+    width: 380px;
+    height: 390px;
+    left: 35px;
+    top: 580px;
+    background: #ececec;
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
+}
+.pic4{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    left: 90px;
+    top: 40px;
+    background: url(Bowtie-Pasta.jpg)  no-repeat;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.b5{
+    position: absolute;
+    width: 380px;
+    height: 390px;
+    left: 470px;
+    top: 580px;
+    background: #ececec;
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
+}
+.pic5{
+    position: absolute;
+    display: inline-block;
+    width: 280px;
+    height: 195px;
+    left: 45px;
+    top: 40px;
+    background: url(alfredo.webp)  no-repeat;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.b6{
+    position: absolute;
+    margin-bottom: 100px;
+    width: 380px;
+    height: 390px;
+    left: 905px;
+    top: 580px;
+    background: #ececec;
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
+}
+.pic6{
+    position: absolute;
+    display: inline-block;
+    width: 197px;
+    height: 200px;
+    left: 91px;
+    top: 40px;
+    background: url(Grilled-Portobella.webp)  no-repeat;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.icon {
+    cursor: pointer;
+    position: absolute;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: multiply;
+  }
+  
+  .hidden-page {
+    display: none;
+    position: fixed;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 6px 12px 5px rgba(0, 0, 0, 0.35);
+    z-index: 2;
+    background-color: rgba(44, 44, 44, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+  
+  .hidden-page:target {
+    display: block;
+}
+.page-wrapper{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
     
 }
-.meal4{
-    box-sizing: border-box;
+.user{
+position: absolute;
+width: 400px;
+height: 575px;
+left: 36%;
+top: 40px;
+background: #D8D8E0;
+box-shadow: 2px 2px 10px 7px rgba(0, 0, 0, 0.3);
+border-radius: 40px;
+} 
+.user-icon{
     position: absolute;
-    width: 854px;
-    height: 390px;
-    left: calc(50% - 854px/2);
-    top: 1535px;
-    border: 3px solid #000000;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    transition: 0.25s;
+    left: 32%;
+    top: 2%;
+    height: 150px;
+    width: 150px;
 }
-.mp4{
+.user-data{
     position: absolute;
-    width: 298px;
-    height: 58px;
-    left: calc(53% - 298px/2 - 9px);
-    top: 1885px;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 540;
-    font-size: 40px;
-    line-height: 58px;
-    color: #000000;
-    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    top: 30%;
+    left: 7%;
+    width: 90%;
 }
-
-.meal4:hover, .meal3:hover, .meal2:hover, .meal:hover{
-    width: 857px;
-    height: 393px;
-    box-shadow: 5px 5px 12px 10px rgba(0, 0, 0, 0.6);
-
+.details{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000000;
+    resize: none;
+    width: 100%;
+    height: 20px;
+}
+.username{
+position: absolute;
+width: 150px;
+height: 36px;
+left: calc(43% - 61px/2 - 0.5px);
+top: 21%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #000000;
 }
