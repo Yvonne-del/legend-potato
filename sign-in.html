@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="signin.css">
-        <title>NourishPal</title>
-    </head>
-    <body>
-        <div class="formDiv2">
-            <h1 class="title">NourishPal</h1>
-            <form action="login.html">
-                <div class="input-group">
-                    <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Username" required>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Password" required>
-                </div>
-                <button type="submit" class="btn">Sign In</button>
-                <a href="signup.html">Sign Up</a>
-            </form>
-        </div>
-        <script src="https://kit.fontawesome.com/4077c6ef6a.js" crossorigin="anonymous"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <title>NourishPal</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="formDiv2">
+    <h1 class="title">NourishPal</h1>
+    <form onsubmit="signIn(event)">
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Username" id="usernameInput" required>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" id="passwordInput" required>
+      </div>
+      <button type="submit" class="btn">Sign In</button>
+      <a href="signup.html">Sign Up</a>
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/4077c6ef6a.js" crossorigin="anonymous"></script>
+</body>
 </html>
