@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="signin.css">
-        <title>NourishPal</title>
-    </head>
-    <body>
-        <div class="formDiv">
-            <h1 class="title">NourishPal</h1>
-            <form action="home.html">
-                <div class="input-group">
-                    <i class="fas fa-email">@</i>
-                    <input type="email" placeholder="Email" required>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-user"></i>
-                    <input type="text" placeholder="Username" required>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Password" required>
-                </div>
-                <div class="input-group">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Confirm Password" required>
-                </div>
-                <button type="submit" class="btn">Sign Up</button>
-                <br>
-                <p>Already have an account? </p>
-                <a href="signin.html">Sign In</a>
-            </form>
-        </div>
-        <script src="https://kit.fontawesome.com/4077c6ef6a.js" crossorigin="anonymous"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <title>NourishPal</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="formDiv">
+    <h1 class="title">NourishPal</h1>
+    <form onsubmit="saveUserData(event)">
+      <div class="input-group">
+        <i class="fas fa-email">@</i>
+        <input type="email" placeholder="Email" id="emailInput" required>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Password" id="passwordInput" required>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" placeholder="Confirm Password" id="confirmPasswordInput" required>
+      </div>
+      <button type="submit" class="btn">Sign Up</button>
+      <br>
+      <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/4077c6ef6a.js" crossorigin="anonymous"></script>
+</body>
 </html>
+
